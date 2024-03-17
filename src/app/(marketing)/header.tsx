@@ -20,17 +20,10 @@ const Header = () => {
                 </ClerkLoading>
 
                 <ClerkLoaded>
-                    {/*
-                    if signed in, show the user button
-                     */}
                     <SignedIn> 
-                        <UserButton 
-                        afterSignOutUrl="/"
-                        />
+                        <UserButton />
                     </SignedIn>
-                    {/* 
-                    if not signed in, show the sign in button
-                     */}
+
                     <SignedOut>
                         <SignInButton mode="modal" afterSignInUrl="/learn" afterSignUpUrl="/learn" >
                             <Button variant={'ghost'}>
