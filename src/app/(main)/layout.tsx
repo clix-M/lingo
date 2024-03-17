@@ -14,7 +14,6 @@ const MainLayout = ({children}:Props) => {
                 <div className="bg-red-500 h-full">
                 {children}
                 </div>
-            
             </main>
         </>
      );
